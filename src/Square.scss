@@ -1,0 +1,17 @@
+.field {
+  border: 2px solid blue;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.field:hover {
+  cursor: pointer;
+}
+
+.field:active {
+  background-color: aliceblue;
+  color: black;
+}

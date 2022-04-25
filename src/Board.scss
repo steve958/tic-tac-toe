@@ -1,0 +1,21 @@
+#display {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.status {
+  margin: 20px;
+  font-size: 30px;
+  justify-self: center;
+  align-self: center;
+}
+
+.board {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  flex-wrap: wrap;
+  max-width: 312px;
+  margin: 0 auto;
+}
