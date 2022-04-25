@@ -4,5 +4,49 @@ body {
   box-sizing: border-box;
   width: 100vw;
   height: 100vh;
-  background-color: bisque;
+  background-image: url('https://img.freepik.com/free-photo/yellow-plastic-crosses-toe-ruled-field-playing-tic-tac-toe-blue-background-concept-xo-win-challenge-educational-game-kids_164357-2508.jpg?w=2000');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.game-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.status {
+  justify-self: center;
+  align-self: center;
+  font-size: 70px;
+  color: blue;
+}
+
+.ol {
+  justify-self: center;
+  align-self: center;
+}
+
+.list-item {
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.btn {
+  font-size: 25px;
+  background-color: #6ac2fe;
+  color: aliceblue;
+  border: 2px solid blue;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: aliceblue;
+  color: #6ac2fe;
+  font-size: 20px;
 }
